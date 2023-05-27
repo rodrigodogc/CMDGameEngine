@@ -1,0 +1,50 @@
+[
+{
+  "directory": "C:/Users/rodri/Desktop/CMDEngine/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\TestEnv.dir\\CMDGETestEnv.c.obj -c C:\\Users\\rodri\\Desktop\\CMDEngine\\CMDGETestEnv.c",
+  "file": "C:/Users/rodri/Desktop/CMDEngine/CMDGETestEnv.c",
+  "output": "CMakeFiles/TestEnv.dir/CMDGETestEnv.c.obj"
+},
+{
+  "directory": "C:/Users/rodri/Desktop/CMDEngine/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\TestEnv.dir\\WindowHandle.c.obj -c C:\\Users\\rodri\\Desktop\\CMDEngine\\WindowHandle.c",
+  "file": "C:/Users/rodri/Desktop/CMDEngine/WindowHandle.c",
+  "output": "CMakeFiles/TestEnv.dir/WindowHandle.c.obj"
+},
+{
+  "directory": "C:/Users/rodri/Desktop/CMDEngine/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\TestEnv.dir\\RenderEngine.c.obj -c C:\\Users\\rodri\\Desktop\\CMDEngine\\RenderEngine.c",
+  "file": "C:/Users/rodri/Desktop/CMDEngine/RenderEngine.c",
+  "output": "CMakeFiles/TestEnv.dir/RenderEngine.c.obj"
+},
+{
+  "directory": "C:/Users/rodri/Desktop/CMDEngine/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\TestEnv.dir\\PhysicEngine.c.obj -c C:\\Users\\rodri\\Desktop\\CMDEngine\\PhysicEngine.c",
+  "file": "C:/Users/rodri/Desktop/CMDEngine/PhysicEngine.c",
+  "output": "CMakeFiles/TestEnv.dir/PhysicEngine.c.obj"
+},
+{
+  "directory": "C:/Users/rodri/Desktop/CMDEngine/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\TestEnv.dir\\SoundEngine.c.obj -c C:\\Users\\rodri\\Desktop\\CMDEngine\\SoundEngine.c",
+  "file": "C:/Users/rodri/Desktop/CMDEngine/SoundEngine.c",
+  "output": "CMakeFiles/TestEnv.dir/SoundEngine.c.obj"
+},
+{
+  "directory": "C:/Users/rodri/Desktop/CMDEngine/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\TestEnv.dir\\Timers.c.obj -c C:\\Users\\rodri\\Desktop\\CMDEngine\\Timers.c",
+  "file": "C:/Users/rodri/Desktop/CMDEngine/Timers.c",
+  "output": "CMakeFiles/TestEnv.dir/Timers.c.obj"
+},
+{
+  "directory": "C:/Users/rodri/Desktop/CMDEngine/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\TestEnv.dir\\InputHandle.c.obj -c C:\\Users\\rodri\\Desktop\\CMDEngine\\InputHandle.c",
+  "file": "C:/Users/rodri/Desktop/CMDEngine/InputHandle.c",
+  "output": "CMakeFiles/TestEnv.dir/InputHandle.c.obj"
+},
+{
+  "directory": "C:/Users/rodri/Desktop/CMDEngine/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\TestEnv.dir\\LogHandle.c.obj -c C:\\Users\\rodri\\Desktop\\CMDEngine\\LogHandle.c",
+  "file": "C:/Users/rodri/Desktop/CMDEngine/LogHandle.c",
+  "output": "CMakeFiles/TestEnv.dir/LogHandle.c.obj"
+}
+]
