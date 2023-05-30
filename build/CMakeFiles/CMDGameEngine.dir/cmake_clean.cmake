@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CMDGameEngine.dir/CMDGETestEnv.c.obj"
-  "CMakeFiles/CMDGameEngine.dir/CMDGETestEnv.c.obj.d"
   "CMakeFiles/CMDGameEngine.dir/InputHandle.c.obj"
   "CMakeFiles/CMDGameEngine.dir/InputHandle.c.obj.d"
   "CMakeFiles/CMDGameEngine.dir/LogHandle.c.obj"

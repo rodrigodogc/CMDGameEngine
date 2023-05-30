@@ -68,26 +68,11 @@ include CMakeFiles/CMDGameEngine.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CMDGameEngine.dir/flags.make
 
-CMakeFiles/CMDGameEngine.dir/CMDGETestEnv.c.obj: CMakeFiles/CMDGameEngine.dir/flags.make
-CMakeFiles/CMDGameEngine.dir/CMDGETestEnv.c.obj: CMakeFiles/CMDGameEngine.dir/includes_C.rsp
-CMakeFiles/CMDGameEngine.dir/CMDGETestEnv.c.obj: C:/Users/rodri/Desktop/CMDEngineProj/CMDGETestEnv.c
-CMakeFiles/CMDGameEngine.dir/CMDGETestEnv.c.obj: CMakeFiles/CMDGameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodri\Desktop\CMDEngineProj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CMDGameEngine.dir/CMDGETestEnv.c.obj"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CMDGameEngine.dir/CMDGETestEnv.c.obj -MF CMakeFiles\CMDGameEngine.dir\CMDGETestEnv.c.obj.d -o CMakeFiles\CMDGameEngine.dir\CMDGETestEnv.c.obj -c C:\Users\rodri\Desktop\CMDEngineProj\CMDGETestEnv.c
-
-CMakeFiles/CMDGameEngine.dir/CMDGETestEnv.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CMDGameEngine.dir/CMDGETestEnv.c.i"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\rodri\Desktop\CMDEngineProj\CMDGETestEnv.c > CMakeFiles\CMDGameEngine.dir\CMDGETestEnv.c.i
-
-CMakeFiles/CMDGameEngine.dir/CMDGETestEnv.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CMDGameEngine.dir/CMDGETestEnv.c.s"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\rodri\Desktop\CMDEngineProj\CMDGETestEnv.c -o CMakeFiles\CMDGameEngine.dir\CMDGETestEnv.c.s
-
 CMakeFiles/CMDGameEngine.dir/WindowHandle.c.obj: CMakeFiles/CMDGameEngine.dir/flags.make
 CMakeFiles/CMDGameEngine.dir/WindowHandle.c.obj: CMakeFiles/CMDGameEngine.dir/includes_C.rsp
 CMakeFiles/CMDGameEngine.dir/WindowHandle.c.obj: C:/Users/rodri/Desktop/CMDEngineProj/WindowHandle.c
 CMakeFiles/CMDGameEngine.dir/WindowHandle.c.obj: CMakeFiles/CMDGameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodri\Desktop\CMDEngineProj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CMDGameEngine.dir/WindowHandle.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodri\Desktop\CMDEngineProj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CMDGameEngine.dir/WindowHandle.c.obj"
 	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CMDGameEngine.dir/WindowHandle.c.obj -MF CMakeFiles\CMDGameEngine.dir\WindowHandle.c.obj.d -o CMakeFiles\CMDGameEngine.dir\WindowHandle.c.obj -c C:\Users\rodri\Desktop\CMDEngineProj\WindowHandle.c
 
 CMakeFiles/CMDGameEngine.dir/WindowHandle.c.i: cmake_force
@@ -102,7 +87,7 @@ CMakeFiles/CMDGameEngine.dir/RenderEngine.c.obj: CMakeFiles/CMDGameEngine.dir/fl
 CMakeFiles/CMDGameEngine.dir/RenderEngine.c.obj: CMakeFiles/CMDGameEngine.dir/includes_C.rsp
 CMakeFiles/CMDGameEngine.dir/RenderEngine.c.obj: C:/Users/rodri/Desktop/CMDEngineProj/RenderEngine.c
 CMakeFiles/CMDGameEngine.dir/RenderEngine.c.obj: CMakeFiles/CMDGameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodri\Desktop\CMDEngineProj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CMDGameEngine.dir/RenderEngine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodri\Desktop\CMDEngineProj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CMDGameEngine.dir/RenderEngine.c.obj"
 	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CMDGameEngine.dir/RenderEngine.c.obj -MF CMakeFiles\CMDGameEngine.dir\RenderEngine.c.obj.d -o CMakeFiles\CMDGameEngine.dir\RenderEngine.c.obj -c C:\Users\rodri\Desktop\CMDEngineProj\RenderEngine.c
 
 CMakeFiles/CMDGameEngine.dir/RenderEngine.c.i: cmake_force
@@ -117,7 +102,7 @@ CMakeFiles/CMDGameEngine.dir/PhysicEngine.c.obj: CMakeFiles/CMDGameEngine.dir/fl
 CMakeFiles/CMDGameEngine.dir/PhysicEngine.c.obj: CMakeFiles/CMDGameEngine.dir/includes_C.rsp
 CMakeFiles/CMDGameEngine.dir/PhysicEngine.c.obj: C:/Users/rodri/Desktop/CMDEngineProj/PhysicEngine.c
 CMakeFiles/CMDGameEngine.dir/PhysicEngine.c.obj: CMakeFiles/CMDGameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodri\Desktop\CMDEngineProj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CMDGameEngine.dir/PhysicEngine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodri\Desktop\CMDEngineProj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CMDGameEngine.dir/PhysicEngine.c.obj"
 	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CMDGameEngine.dir/PhysicEngine.c.obj -MF CMakeFiles\CMDGameEngine.dir\PhysicEngine.c.obj.d -o CMakeFiles\CMDGameEngine.dir\PhysicEngine.c.obj -c C:\Users\rodri\Desktop\CMDEngineProj\PhysicEngine.c
 
 CMakeFiles/CMDGameEngine.dir/PhysicEngine.c.i: cmake_force
@@ -132,7 +117,7 @@ CMakeFiles/CMDGameEngine.dir/SoundEngine.c.obj: CMakeFiles/CMDGameEngine.dir/fla
 CMakeFiles/CMDGameEngine.dir/SoundEngine.c.obj: CMakeFiles/CMDGameEngine.dir/includes_C.rsp
 CMakeFiles/CMDGameEngine.dir/SoundEngine.c.obj: C:/Users/rodri/Desktop/CMDEngineProj/SoundEngine.c
 CMakeFiles/CMDGameEngine.dir/SoundEngine.c.obj: CMakeFiles/CMDGameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodri\Desktop\CMDEngineProj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CMDGameEngine.dir/SoundEngine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodri\Desktop\CMDEngineProj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CMDGameEngine.dir/SoundEngine.c.obj"
 	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CMDGameEngine.dir/SoundEngine.c.obj -MF CMakeFiles\CMDGameEngine.dir\SoundEngine.c.obj.d -o CMakeFiles\CMDGameEngine.dir\SoundEngine.c.obj -c C:\Users\rodri\Desktop\CMDEngineProj\SoundEngine.c
 
 CMakeFiles/CMDGameEngine.dir/SoundEngine.c.i: cmake_force
@@ -147,7 +132,7 @@ CMakeFiles/CMDGameEngine.dir/Timers.c.obj: CMakeFiles/CMDGameEngine.dir/flags.ma
 CMakeFiles/CMDGameEngine.dir/Timers.c.obj: CMakeFiles/CMDGameEngine.dir/includes_C.rsp
 CMakeFiles/CMDGameEngine.dir/Timers.c.obj: C:/Users/rodri/Desktop/CMDEngineProj/Timers.c
 CMakeFiles/CMDGameEngine.dir/Timers.c.obj: CMakeFiles/CMDGameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodri\Desktop\CMDEngineProj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CMDGameEngine.dir/Timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodri\Desktop\CMDEngineProj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CMDGameEngine.dir/Timers.c.obj"
 	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CMDGameEngine.dir/Timers.c.obj -MF CMakeFiles\CMDGameEngine.dir\Timers.c.obj.d -o CMakeFiles\CMDGameEngine.dir\Timers.c.obj -c C:\Users\rodri\Desktop\CMDEngineProj\Timers.c
 
 CMakeFiles/CMDGameEngine.dir/Timers.c.i: cmake_force
@@ -162,7 +147,7 @@ CMakeFiles/CMDGameEngine.dir/InputHandle.c.obj: CMakeFiles/CMDGameEngine.dir/fla
 CMakeFiles/CMDGameEngine.dir/InputHandle.c.obj: CMakeFiles/CMDGameEngine.dir/includes_C.rsp
 CMakeFiles/CMDGameEngine.dir/InputHandle.c.obj: C:/Users/rodri/Desktop/CMDEngineProj/InputHandle.c
 CMakeFiles/CMDGameEngine.dir/InputHandle.c.obj: CMakeFiles/CMDGameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodri\Desktop\CMDEngineProj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CMDGameEngine.dir/InputHandle.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodri\Desktop\CMDEngineProj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CMDGameEngine.dir/InputHandle.c.obj"
 	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CMDGameEngine.dir/InputHandle.c.obj -MF CMakeFiles\CMDGameEngine.dir\InputHandle.c.obj.d -o CMakeFiles\CMDGameEngine.dir\InputHandle.c.obj -c C:\Users\rodri\Desktop\CMDEngineProj\InputHandle.c
 
 CMakeFiles/CMDGameEngine.dir/InputHandle.c.i: cmake_force
@@ -177,7 +162,7 @@ CMakeFiles/CMDGameEngine.dir/LogHandle.c.obj: CMakeFiles/CMDGameEngine.dir/flags
 CMakeFiles/CMDGameEngine.dir/LogHandle.c.obj: CMakeFiles/CMDGameEngine.dir/includes_C.rsp
 CMakeFiles/CMDGameEngine.dir/LogHandle.c.obj: C:/Users/rodri/Desktop/CMDEngineProj/LogHandle.c
 CMakeFiles/CMDGameEngine.dir/LogHandle.c.obj: CMakeFiles/CMDGameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodri\Desktop\CMDEngineProj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/CMDGameEngine.dir/LogHandle.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodri\Desktop\CMDEngineProj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CMDGameEngine.dir/LogHandle.c.obj"
 	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CMDGameEngine.dir/LogHandle.c.obj -MF CMakeFiles\CMDGameEngine.dir\LogHandle.c.obj.d -o CMakeFiles\CMDGameEngine.dir\LogHandle.c.obj -c C:\Users\rodri\Desktop\CMDEngineProj\LogHandle.c
 
 CMakeFiles/CMDGameEngine.dir/LogHandle.c.i: cmake_force
@@ -190,7 +175,6 @@ CMakeFiles/CMDGameEngine.dir/LogHandle.c.s: cmake_force
 
 # Object files for target CMDGameEngine
 CMDGameEngine_OBJECTS = \
-"CMakeFiles/CMDGameEngine.dir/CMDGETestEnv.c.obj" \
 "CMakeFiles/CMDGameEngine.dir/WindowHandle.c.obj" \
 "CMakeFiles/CMDGameEngine.dir/RenderEngine.c.obj" \
 "CMakeFiles/CMDGameEngine.dir/PhysicEngine.c.obj" \
@@ -202,7 +186,6 @@ CMDGameEngine_OBJECTS = \
 # External object files for target CMDGameEngine
 CMDGameEngine_EXTERNAL_OBJECTS =
 
-libCMDGameEngine.a: CMakeFiles/CMDGameEngine.dir/CMDGETestEnv.c.obj
 libCMDGameEngine.a: CMakeFiles/CMDGameEngine.dir/WindowHandle.c.obj
 libCMDGameEngine.a: CMakeFiles/CMDGameEngine.dir/RenderEngine.c.obj
 libCMDGameEngine.a: CMakeFiles/CMDGameEngine.dir/PhysicEngine.c.obj
@@ -212,7 +195,7 @@ libCMDGameEngine.a: CMakeFiles/CMDGameEngine.dir/InputHandle.c.obj
 libCMDGameEngine.a: CMakeFiles/CMDGameEngine.dir/LogHandle.c.obj
 libCMDGameEngine.a: CMakeFiles/CMDGameEngine.dir/build.make
 libCMDGameEngine.a: CMakeFiles/CMDGameEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\rodri\Desktop\CMDEngineProj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C static library libCMDGameEngine.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\rodri\Desktop\CMDEngineProj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library libCMDGameEngine.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\CMDGameEngine.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CMDGameEngine.dir\link.txt --verbose=$(VERBOSE)
 

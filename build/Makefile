@@ -147,7 +147,6 @@ CMDGETestEnv.obj: CMDGETestEnv.c.obj
 # target to build an object file
 CMDGETestEnv.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/CMDGETestEnv.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/CMDGETestEnv.c.obj
 .PHONY : CMDGETestEnv.c.obj
 
 CMDGETestEnv.i: CMDGETestEnv.c.i
@@ -156,7 +155,6 @@ CMDGETestEnv.i: CMDGETestEnv.c.i
 # target to preprocess a source file
 CMDGETestEnv.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/CMDGETestEnv.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/CMDGETestEnv.c.i
 .PHONY : CMDGETestEnv.c.i
 
 CMDGETestEnv.s: CMDGETestEnv.c.s
@@ -165,7 +163,6 @@ CMDGETestEnv.s: CMDGETestEnv.c.s
 # target to generate assembly for a file
 CMDGETestEnv.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/CMDGETestEnv.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/CMDGETestEnv.c.s
 .PHONY : CMDGETestEnv.c.s
 
 InputHandle.obj: InputHandle.c.obj

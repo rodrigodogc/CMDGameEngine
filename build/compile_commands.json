@@ -49,12 +49,6 @@
 },
 {
   "directory": "C:/Users/rodri/Desktop/CMDEngineProj/build",
-  "command": "C:\\mingw64\\bin\\gcc.exe  @CMakeFiles/CMDGameEngine.dir/includes_C.rsp -g -o CMakeFiles\\CMDGameEngine.dir\\CMDGETestEnv.c.obj -c C:\\Users\\rodri\\Desktop\\CMDEngineProj\\CMDGETestEnv.c",
-  "file": "C:/Users/rodri/Desktop/CMDEngineProj/CMDGETestEnv.c",
-  "output": "CMakeFiles/CMDGameEngine.dir/CMDGETestEnv.c.obj"
-},
-{
-  "directory": "C:/Users/rodri/Desktop/CMDEngineProj/build",
   "command": "C:\\mingw64\\bin\\gcc.exe  @CMakeFiles/CMDGameEngine.dir/includes_C.rsp -g -o CMakeFiles\\CMDGameEngine.dir\\WindowHandle.c.obj -c C:\\Users\\rodri\\Desktop\\CMDEngineProj\\WindowHandle.c",
   "file": "C:/Users/rodri/Desktop/CMDEngineProj/WindowHandle.c",
   "output": "CMakeFiles/CMDGameEngine.dir/WindowHandle.c.obj"
