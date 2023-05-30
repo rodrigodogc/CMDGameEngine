@@ -1,6 +1,6 @@
 CMakeFiles/TestEnv.dir/RenderEngine.c.obj: \
- C:\Users\rodri\Desktop\CMDEngine\RenderEngine.c \
- C:\Users\rodri\Desktop\CMDEngine\TextGameEngine.h \
+ C:\Users\rodri\Desktop\CMDEngineProj\RenderEngine.c \
+ C:\Users\rodri\Desktop\CMDEngineProj\TextGameEngine.h \
  C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
  C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
  C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \

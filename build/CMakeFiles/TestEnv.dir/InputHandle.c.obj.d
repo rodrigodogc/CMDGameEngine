@@ -1,6 +1,6 @@
 CMakeFiles/TestEnv.dir/InputHandle.c.obj: \
- C:\Users\rodri\Desktop\CMDEngine\InputHandle.c \
- C:\Users\rodri\Desktop\CMDEngine\TextGameEngine.h \
+ C:\Users\rodri\Desktop\CMDEngineProj\InputHandle.c \
+ C:\Users\rodri\Desktop\CMDEngineProj\TextGameEngine.h \
  C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
  C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
  C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \

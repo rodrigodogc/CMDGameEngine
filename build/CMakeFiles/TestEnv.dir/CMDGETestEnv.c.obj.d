@@ -1,5 +1,5 @@
 CMakeFiles/TestEnv.dir/CMDGETestEnv.c.obj: \
- C:\Users\rodri\Desktop\CMDEngine\CMDGETestEnv.c \
+ C:\Users\rodri\Desktop\CMDEngineProj\CMDGETestEnv.c \
  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
@@ -21,7 +21,7 @@ CMakeFiles/TestEnv.dir/CMDGETestEnv.c.obj: \
  C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
  C:/mingw64/x86_64-w64-mingw32/include/errno.h \
- C:\Users\rodri\Desktop\CMDEngine\TextGameEngine.h \
+ C:\Users\rodri\Desktop\CMDEngineProj\TextGameEngine.h \
  C:/mingw64/x86_64-w64-mingw32/include/math.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
  C:/mingw64/x86_64-w64-mingw32/include/stdarg.h \

@@ -77,16 +77,11 @@ int main() {
                 Box.speedY = 0;
             }
         
-            /*if (getKeyDown() == KEY_LEFT) {
-                playSound(SHOT_SFX);
-            }*/
-
             /* Sessão de física */
             updatePhysicWorld(physicWorld, deltaTime, nObjects, 1, true);
             
             /* Sessão de renderização */
             ClearFrameBuffer(frame, BG_BLACK);
-            
             DrawObject(frame, BoxObj, Box);
 
             Render(window, frame);

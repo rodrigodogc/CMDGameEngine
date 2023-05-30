@@ -1,5 +1,5 @@
 CMakeFiles/TestEnv.dir/Timers.c.obj: \
- C:\Users\rodri\Desktop\CMDEngine\Timers.c \
+ C:\Users\rodri\Desktop\CMDEngineProj\Timers.c \
  C:/mingw64/x86_64-w64-mingw32/include/sys/time.h \
  C:/mingw64/x86_64-w64-mingw32/include/time.h \
  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
@@ -13,7 +13,7 @@ CMakeFiles/TestEnv.dir/Timers.c.obj: \
  C:/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
  C:/mingw64/x86_64-w64-mingw32/include/_timeval.h \
  C:/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
- C:\Users\rodri\Desktop\CMDEngine\TextGameEngine.h \
+ C:\Users\rodri\Desktop\CMDEngineProj\TextGameEngine.h \
  C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
  C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
