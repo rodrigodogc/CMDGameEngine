@@ -20,5 +20,7 @@ set (HEADERS
 
 add_executable(TestEnv ${SOURCES} ${HEADERS})
 
-target_link_libraries(TestEnv) 
-#winmm
+add_library(CMDGameEngine STATIC ${SOURCES} ${HEADERS})
+target_include_directories(CMDGameEngine PUBLIC include)
+
+target_link_libraries(TestEnv winmm) 

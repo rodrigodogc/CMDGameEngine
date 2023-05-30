@@ -31,15 +31,6 @@ int main() {
                      bounce: false,
                      active: true
                      };
-    RigidBody BoxRed = {posX: 10, posY: 10, 
-                     speedX: 0, speedY: 0, 
-                     sizeX: 8, sizeY: 4,
-                     isGrounded: false,
-                     allowPhysicalCollision: false,
-                     allowGravity: false,
-                     bounce: false,
-                     active: true
-                     };
 
     int nObjects = 1;
     PHYSIC_WORLD *physicWorld[nObjects];
@@ -54,7 +45,6 @@ int main() {
     updateTimer(&timer.current);
     /* Mainloop */ 
     while (running) {  
-
         updateTimer(&timer.current);
         updateDeltaTime(&deltaTime, &timer);
         if (deltaTime >= FRAMETIME) {

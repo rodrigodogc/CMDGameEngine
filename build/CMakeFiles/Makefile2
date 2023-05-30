@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = C:\Users\rodri\Desktop\CMDEngineProj\build
 
 # The main recursive "all" target.
 all: CMakeFiles/TestEnv.dir/all
+all: CMakeFiles/CMDGameEngine.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,6 +72,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/TestEnv.dir/clean
+clean: CMakeFiles/CMDGameEngine.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -80,7 +82,7 @@ clean: CMakeFiles/TestEnv.dir/clean
 CMakeFiles/TestEnv.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\rodri\Desktop\CMDEngineProj\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target TestEnv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\rodri\Desktop\CMDEngineProj\build\CMakeFiles --progress-num=10,11,12,13,14,15,16,17,18 "Built target TestEnv"
 .PHONY : CMakeFiles/TestEnv.dir/all
 
 # Build rule for subdir invocation for target.
@@ -98,6 +100,32 @@ TestEnv: CMakeFiles/TestEnv.dir/rule
 CMakeFiles/TestEnv.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/clean
 .PHONY : CMakeFiles/TestEnv.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/CMDGameEngine.dir
+
+# All Build rule for target.
+CMakeFiles/CMDGameEngine.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\rodri\Desktop\CMDEngineProj\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target CMDGameEngine"
+.PHONY : CMakeFiles/CMDGameEngine.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CMDGameEngine.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\rodri\Desktop\CMDEngineProj\build\CMakeFiles 9
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/CMDGameEngine.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\rodri\Desktop\CMDEngineProj\build\CMakeFiles 0
+.PHONY : CMakeFiles/CMDGameEngine.dir/rule
+
+# Convenience name for target.
+CMDGameEngine: CMakeFiles/CMDGameEngine.dir/rule
+.PHONY : CMDGameEngine
+
+# clean rule for target.
+CMakeFiles/CMDGameEngine.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/clean
+.PHONY : CMakeFiles/CMDGameEngine.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

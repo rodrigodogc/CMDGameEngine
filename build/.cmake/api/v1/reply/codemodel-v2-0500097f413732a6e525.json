@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "CMDGameEngine",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,8 +40,15 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "CMDGameEngine::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CMDGameEngine-Debug-6fd97684aa20ef917af4.json",
+					"name" : "CMDGameEngine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "TestEnv::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TestEnv-Debug-26a39cbea514d7468933.json",
+					"jsonFile" : "target-TestEnv-Debug-67c320886765efad6667.json",
 					"name" : "TestEnv",
 					"projectIndex" : 0
 				}

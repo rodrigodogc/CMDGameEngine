@@ -128,12 +128,26 @@ TestEnv/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/build
 .PHONY : TestEnv/fast
 
+#=============================================================================
+# Target rules for targets named CMDGameEngine
+
+# Build rule for target.
+CMDGameEngine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMDGameEngine
+.PHONY : CMDGameEngine
+
+# fast build rule for target.
+CMDGameEngine/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/build
+.PHONY : CMDGameEngine/fast
+
 CMDGETestEnv.obj: CMDGETestEnv.c.obj
 .PHONY : CMDGETestEnv.obj
 
 # target to build an object file
 CMDGETestEnv.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/CMDGETestEnv.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/CMDGETestEnv.c.obj
 .PHONY : CMDGETestEnv.c.obj
 
 CMDGETestEnv.i: CMDGETestEnv.c.i
@@ -142,6 +156,7 @@ CMDGETestEnv.i: CMDGETestEnv.c.i
 # target to preprocess a source file
 CMDGETestEnv.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/CMDGETestEnv.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/CMDGETestEnv.c.i
 .PHONY : CMDGETestEnv.c.i
 
 CMDGETestEnv.s: CMDGETestEnv.c.s
@@ -150,6 +165,7 @@ CMDGETestEnv.s: CMDGETestEnv.c.s
 # target to generate assembly for a file
 CMDGETestEnv.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/CMDGETestEnv.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/CMDGETestEnv.c.s
 .PHONY : CMDGETestEnv.c.s
 
 InputHandle.obj: InputHandle.c.obj
@@ -158,6 +174,7 @@ InputHandle.obj: InputHandle.c.obj
 # target to build an object file
 InputHandle.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/InputHandle.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/InputHandle.c.obj
 .PHONY : InputHandle.c.obj
 
 InputHandle.i: InputHandle.c.i
@@ -166,6 +183,7 @@ InputHandle.i: InputHandle.c.i
 # target to preprocess a source file
 InputHandle.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/InputHandle.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/InputHandle.c.i
 .PHONY : InputHandle.c.i
 
 InputHandle.s: InputHandle.c.s
@@ -174,6 +192,7 @@ InputHandle.s: InputHandle.c.s
 # target to generate assembly for a file
 InputHandle.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/InputHandle.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/InputHandle.c.s
 .PHONY : InputHandle.c.s
 
 LogHandle.obj: LogHandle.c.obj
@@ -182,6 +201,7 @@ LogHandle.obj: LogHandle.c.obj
 # target to build an object file
 LogHandle.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/LogHandle.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/LogHandle.c.obj
 .PHONY : LogHandle.c.obj
 
 LogHandle.i: LogHandle.c.i
@@ -190,6 +210,7 @@ LogHandle.i: LogHandle.c.i
 # target to preprocess a source file
 LogHandle.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/LogHandle.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/LogHandle.c.i
 .PHONY : LogHandle.c.i
 
 LogHandle.s: LogHandle.c.s
@@ -198,6 +219,7 @@ LogHandle.s: LogHandle.c.s
 # target to generate assembly for a file
 LogHandle.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/LogHandle.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/LogHandle.c.s
 .PHONY : LogHandle.c.s
 
 PhysicEngine.obj: PhysicEngine.c.obj
@@ -206,6 +228,7 @@ PhysicEngine.obj: PhysicEngine.c.obj
 # target to build an object file
 PhysicEngine.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/PhysicEngine.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/PhysicEngine.c.obj
 .PHONY : PhysicEngine.c.obj
 
 PhysicEngine.i: PhysicEngine.c.i
@@ -214,6 +237,7 @@ PhysicEngine.i: PhysicEngine.c.i
 # target to preprocess a source file
 PhysicEngine.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/PhysicEngine.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/PhysicEngine.c.i
 .PHONY : PhysicEngine.c.i
 
 PhysicEngine.s: PhysicEngine.c.s
@@ -222,6 +246,7 @@ PhysicEngine.s: PhysicEngine.c.s
 # target to generate assembly for a file
 PhysicEngine.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/PhysicEngine.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/PhysicEngine.c.s
 .PHONY : PhysicEngine.c.s
 
 RenderEngine.obj: RenderEngine.c.obj
@@ -230,6 +255,7 @@ RenderEngine.obj: RenderEngine.c.obj
 # target to build an object file
 RenderEngine.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/RenderEngine.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/RenderEngine.c.obj
 .PHONY : RenderEngine.c.obj
 
 RenderEngine.i: RenderEngine.c.i
@@ -238,6 +264,7 @@ RenderEngine.i: RenderEngine.c.i
 # target to preprocess a source file
 RenderEngine.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/RenderEngine.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/RenderEngine.c.i
 .PHONY : RenderEngine.c.i
 
 RenderEngine.s: RenderEngine.c.s
@@ -246,6 +273,7 @@ RenderEngine.s: RenderEngine.c.s
 # target to generate assembly for a file
 RenderEngine.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/RenderEngine.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/RenderEngine.c.s
 .PHONY : RenderEngine.c.s
 
 SoundEngine.obj: SoundEngine.c.obj
@@ -254,6 +282,7 @@ SoundEngine.obj: SoundEngine.c.obj
 # target to build an object file
 SoundEngine.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/SoundEngine.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/SoundEngine.c.obj
 .PHONY : SoundEngine.c.obj
 
 SoundEngine.i: SoundEngine.c.i
@@ -262,6 +291,7 @@ SoundEngine.i: SoundEngine.c.i
 # target to preprocess a source file
 SoundEngine.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/SoundEngine.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/SoundEngine.c.i
 .PHONY : SoundEngine.c.i
 
 SoundEngine.s: SoundEngine.c.s
@@ -270,6 +300,7 @@ SoundEngine.s: SoundEngine.c.s
 # target to generate assembly for a file
 SoundEngine.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/SoundEngine.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/SoundEngine.c.s
 .PHONY : SoundEngine.c.s
 
 Timers.obj: Timers.c.obj
@@ -278,6 +309,7 @@ Timers.obj: Timers.c.obj
 # target to build an object file
 Timers.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/Timers.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/Timers.c.obj
 .PHONY : Timers.c.obj
 
 Timers.i: Timers.c.i
@@ -286,6 +318,7 @@ Timers.i: Timers.c.i
 # target to preprocess a source file
 Timers.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/Timers.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/Timers.c.i
 .PHONY : Timers.c.i
 
 Timers.s: Timers.c.s
@@ -294,6 +327,7 @@ Timers.s: Timers.c.s
 # target to generate assembly for a file
 Timers.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/Timers.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/Timers.c.s
 .PHONY : Timers.c.s
 
 WindowHandle.obj: WindowHandle.c.obj
@@ -302,6 +336,7 @@ WindowHandle.obj: WindowHandle.c.obj
 # target to build an object file
 WindowHandle.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/WindowHandle.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/WindowHandle.c.obj
 .PHONY : WindowHandle.c.obj
 
 WindowHandle.i: WindowHandle.c.i
@@ -310,6 +345,7 @@ WindowHandle.i: WindowHandle.c.i
 # target to preprocess a source file
 WindowHandle.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/WindowHandle.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/WindowHandle.c.i
 .PHONY : WindowHandle.c.i
 
 WindowHandle.s: WindowHandle.c.s
@@ -318,6 +354,7 @@ WindowHandle.s: WindowHandle.c.s
 # target to generate assembly for a file
 WindowHandle.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEnv.dir\build.make CMakeFiles/TestEnv.dir/WindowHandle.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMDGameEngine.dir\build.make CMakeFiles/CMDGameEngine.dir/WindowHandle.c.s
 .PHONY : WindowHandle.c.s
 
 # Help Target
@@ -328,6 +365,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... CMDGameEngine
 	@echo ... TestEnv
 	@echo ... CMDGETestEnv.obj
 	@echo ... CMDGETestEnv.i
