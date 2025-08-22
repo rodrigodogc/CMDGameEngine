@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\TestEnv.dir/objects.a
-C:\mingw64\bin\ar.exe qc CMakeFiles\TestEnv.dir/objects.a @CMakeFiles\TestEnv.dir\objects1.rsp
-C:\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\TestEnv.dir/objects.a -Wl,--no-whole-archive -o TestEnv.exe -Wl,--out-implib,libTestEnv.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TestEnv.dir\linkLibs.rsp

@@ -1,2 +1,0 @@
-C:\mingw64\bin\ar.exe qc libCMDGameEngine.a CMakeFiles/CMDGameEngine.dir/WindowHandle.c.obj CMakeFiles/CMDGameEngine.dir/RenderEngine.c.obj CMakeFiles/CMDGameEngine.dir/PhysicEngine.c.obj CMakeFiles/CMDGameEngine.dir/SoundEngine.c.obj CMakeFiles/CMDGameEngine.dir/Timers.c.obj CMakeFiles/CMDGameEngine.dir/InputHandle.c.obj CMakeFiles/CMDGameEngine.dir/LogHandle.c.obj
-C:\mingw64\bin\ranlib.exe libCMDGameEngine.a

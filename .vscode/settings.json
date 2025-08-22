@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.conf": "rathena",
+        "utime.h": "c"
+    }
+}
