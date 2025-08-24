@@ -19,13 +19,14 @@ SRC_LIB := $(wildcard src/*.c)
 OBJ_LIB := $(patsubst src/%.c,build/%.o,$(SRC_LIB))
 DEP_LIB := $(OBJ_LIB:.o=.d)
 
-DEMO      := examples/cmd_test/main.c
-OBJ_DEMO  := build/examples_cmd_test_main.o
-DEP_DEMO  := $(OBJ_DEMO:.o=.d)
+DEMO_TITLE := jump
+DEMO       := examples/$(DEMO_TITLE)/main.c
+OBJ_DEMO   := build/$(DEMO_TITLE).o
+DEP_DEMO   := $(OBJ_DEMO:.o=.d)
 
 BIN_DIR := bin
 BLD_DIR := build
-TARGET  := $(BIN_DIR)/cmd_test.exe
+TARGET  := $(BIN_DIR)/$(DEMO_TITLE).exe
 
 # === Alvos ===
 .PHONY: all run clean rebuild
